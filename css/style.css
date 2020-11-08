@@ -2648,6 +2648,25 @@ img.mfp-img {
     opacity: 1;
 }
 
+
+.modalModal .modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.modalModal .modal-header h5{
+color: #000;
+}
+.modalModal .modal-header::before{
+display: block !important;
+content: inherit !important;
+}
+.modalModal .modal-header::after{
+    display: block !important;
+    content: inherit !important;
+    }
+
 .hover-5:hover::after {
     bottom: 0;
 }
@@ -2666,3 +2685,34 @@ img.mfp-img {
 
 
 /*===================HoteL end=======================*/
+
+
+
+
+
+
+.appendTitle h4{
+    color: #000;
+}
+
+.apeendImg img{
+    width: 100%;
+}
+
+.bouquetContaint{
+    display: none;
+}
+
+.bouquetContaintBody {
+	color: #000;
+}
+
+.bouquetContaintBody {
+	height: 200px;
+	overflow-x: auto;
+	padding: 1rem 0;
+}
+
+.bouquetClass {
+	margin-bottom: 2rem;
+}
