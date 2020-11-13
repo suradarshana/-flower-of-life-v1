@@ -1260,7 +1260,6 @@ label.error {
 
 .col-about-img img {
     display: block;
-
     height: 700px;
 }
 
@@ -2648,24 +2647,26 @@ img.mfp-img {
     opacity: 1;
 }
 
-
-.modalModal .modal-header{
+.modalModal .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.modalModal .modal-header h5{
-color: #000;
+
+.modalModal .modal-header h5 {
+    color: #000;
 }
-.modalModal .modal-header::before{
-display: block !important;
-content: inherit !important;
-}
-.modalModal .modal-header::after{
+
+.modalModal .modal-header::before {
     display: block !important;
     content: inherit !important;
-    }
+}
+
+.modalModal .modal-header::after {
+    display: block !important;
+    content: inherit !important;
+}
 
 .hover-5:hover::after {
     bottom: 0;
@@ -2686,43 +2687,55 @@ content: inherit !important;
 
 /*===================HoteL end=======================*/
 
-
-
-
-
-
-.appendTitle h4{
+.appendTitle h4 {
     color: #000;
 }
 
-.apeendImg img{
+.apeendImg img {
     width: 100%;
 }
 
-.bouquetContaint{
+.bouquetContaint {
     display: none;
 }
 
 .bouquetContaintBody {
-	color: #000;
+    color: #000;
 }
 
 .bouquetContaintBody {
-	height: 200px;
-	overflow-x: auto;
-	padding: 1rem 0;
+    height: 200px;
+    overflow-x: auto;
+    padding: 1rem 0;
 }
 
 .bouquetClass {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .bouquetModal .modal-footer button {
-	background: #a8aea5;
+    background: #a8aea5;
     border-radius: 4px;
     padding: 9px 25px;
 }
 
 .bouquetModal .modal-dialog {
-	width: 758px;
+    width: 758px;
+}
+
+.apeendfooterprice {
+    color: #000;
+}
+
+.footerjoiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.seemore button {
+    background: #414640;
+    border-radius: 4px;
+    padding: 9px 25px;
 }
