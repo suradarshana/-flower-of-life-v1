@@ -68,7 +68,7 @@
 /* 1.1 General */
 
 @import url('bootstrap.min.css');
-@import url('font-awesome.min.css');
+@import url('--awesome.min.css');
 @import url('animate.css');
 @import url('hover.css');
 @import url('magnific-popup.css');
@@ -2721,6 +2721,7 @@ img.mfp-img {
 
 .bouquetModal .modal-dialog {
     width: 758px;
+    max-width: 94%;
 }
 
 .apeendfooterprice {
